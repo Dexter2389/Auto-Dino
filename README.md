@@ -1,2 +1,2 @@
-# Dino-Run-Using-Reinforcement-Learning
+# Dino Run Using Reinforcement Learning
 Used Nadam Optimizer
