@@ -26,7 +26,7 @@ from io import BytesIO
 import json
 
 # Path Variables
-GAME_URL = "chrome://dino"
+GAME_URL = "http://wayou.github.io/t-rex-runner/"
 CHROME_DRIVER_PATH = "./chromedriver"
 LOSS_FILE_PATH = "./objects/loss_df.csv"
 ACTIONS_FILE_PATH = "./objects/actions_df.csv"
