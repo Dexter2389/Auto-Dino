@@ -1,0 +1,7 @@
+numpy
+pandas
+Pillow
+opencv-python
+selenium
+tensorflow
+Keras
