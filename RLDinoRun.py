@@ -42,7 +42,7 @@ return canvasRunner.toDataURL().substring(22)"
 
 # Game Parameter Constants
 ACTIONS = 2  # Possible actions: "Jump" or "Do Nothing"
-GAMMA = 0.99  # Decay rate of past observations, original 0.99
+GAMMA = 0.9  # Decay rate of past observations, original 0.99
 OBSERVATION = 100.  # Timesteps to observe before training
 EXPLORE = 100000  # Frames over which to anneal epsilon
 FINAL_EPSILON = 0.0001  # Final value of epsilon
