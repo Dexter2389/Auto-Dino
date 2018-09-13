@@ -1,5 +1,5 @@
 # Auto Dino
-A Deep Convolutional Neural Network to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nanand Optimizer.
+A Deep Convolutional Neural Network to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nadam Optimizer.
 
 ## Requirements
 * Set up a python environment with required dependencies installed.
