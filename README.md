@@ -1,9 +1,9 @@
 # Auto Dino
-A Deep Convolutional Neural Network to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nadam Optimizer.
+A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement Learning’](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) introduced a new deep learning model for reinforcement learning, and demonstrated its ability to master difficult control policies for Atari 2600 computer games, using only raw pixels as input. In this repository, a Deep Convolutional Neural Network will learn to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nadam Optimizer.
 
 ## Requirements
 * Set up a python environment with required dependencies installed.
-* If you are familiar with Docker, you can use this [container]() that comes preinstalled with everything you need.
+* If you are familiar with Docker, you can use this [container]() that comes preinstalled with everything you need (Coming Soon).
 
 ## Usage
 ### For Python Environment:
@@ -36,7 +36,7 @@ A Deep Convolutional Neural Network to play Google Chrome's Dino Run game by lea
   #### 4. Results
   Run ```DinoTrainingProgress.py``` to see the results of the training process
   
-### For Docker Container:
+### For Docker Container (Coming Soon!):
   #### 1. xxxxx
   
 
