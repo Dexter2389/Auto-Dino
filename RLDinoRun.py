@@ -120,18 +120,6 @@ def show_image(graphs=False):
 
 # Trainig varialbes saed as checkpoints to filesystem to resume training from the same step
 
-
-def init_cache():
-    """
-    Initiate variable caching. Done only once
-    """
-    save_object(INITIAL_EPSILON, "epsilon")
-    t = 0
-    save_object(t, "time")
-    D = deque()
-    save_object(D, "D")
-
-
 class Game():
     """
     Selenium interfacing between the python and browser
@@ -255,10 +243,6 @@ class Game_State:
             reward = -1
             is_over = True
         return image, reward, is_over
-
-
-init_cache()
-
 
 def buildModel():
     print("Building Convolutional Neural Network")
