@@ -7,6 +7,7 @@ import pandas as pd
 from random import randint
 import os
 
+import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -398,8 +399,8 @@ def trainNetwork(model, game_state, observe=False):
         s_t = initial_state if terminal else s_t1
         t += 1
 
-        # Save progress every 1000 iterations
-        if t % 1000 == 0:
+        # Save progress every 500 iterations
+        if t % 500 == 0:
             print("Now we save model during training")
             game_state._game.pause()  # Pause game while saving to filesystem
             model.save_weights("model.h5", overwrite=True)
@@ -434,16 +435,21 @@ def trainNetwork(model, game_state, observe=False):
 
 # Main Function
 
-
 def playGame(observe=False):
-    game = Game()
-    dino = DinoAgent(game)
-    game_state = Game_State(dino, game)
-    model = buildModel()
     try:
-        trainNetwork(model, game_state, observe=observe)
-    except StopIteration:
-        game.end()
+        game = Game()
+        dino = DinoAgent(game)
+        game_state = Game_State(dino, game)
+        model = buildModel()
+        try:
+            trainNetwork(model, game_state, observe=observe)
+        except FileNotFoundError:
+            print("Looks like init_cache.py was not executed ever.\nDoing that for you!!! Sit back and relax.....")
+            os.system('python init_cache.py')
+            trainNetwork(model, game_state, observe=observe)
+        except StopIteration:
+            game.end()
+    except selenium.common.exceptions.WebDriverException:
+        print("No driver")
 
-
-playGame(observe=False)
+playGame(observe=False)    
