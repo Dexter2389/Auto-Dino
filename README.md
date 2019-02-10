@@ -7,7 +7,7 @@ A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement 
 
 ## Usage
 ### For Python Environment:
-  #### 1. Downloading this Respository
+#### 1. Downloading this Respository
   Start by [downloading](https://github.com/Dexter2389/Auto-Dino/archive/master.zip) or clone the repository:
   
   ```
@@ -15,7 +15,7 @@ A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement 
   $ cd Auto-Dino
   ```
   
-  #### 2. Install Dependencies and get Chromedriver
+#### 2. Install Dependencies and get Chromedriver
   * If you are running this without the [Docker image](), you will need to get the chromedriver and place it in the working directory. This is a requirement to make the python script interact wih the Google Chrome. You can download the and extract by running:
   
   ```
@@ -28,7 +28,7 @@ A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement 
   ```
   pip install -r requirements.txt
   ```
-  #### 3. Start the training
+#### 3. Start the training
   1. Run ```init_cache.py``` first time to initialize the file system structure.
   
   2. Run ```RLDinoRun.py``` to start the training of the Dino Run game.
