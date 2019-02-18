@@ -1,5 +1,5 @@
 # Auto Dino
-A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement Learning’](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) introduced a new deep learning model for reinforcement learning, and demonstrated its ability to master difficult control policies for Atari 2600 computer games, using only raw pixels as input. In this repository, a Deep Convolutional Neural Network will learn to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nadam Optimizer.
+A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement Learning’](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) introduced a new deep learning model for reinforcement learning, and demonstrated its ability to master difficult control policies for Atari 2600 computer games, using only raw pixels as input. In this repository, a Deep Convolutional Neural Network will learn to play Google Chrome's Dino Run game by learning action patterns using a model-less Reinforcement Learning Algorithm using Nadam Optimizer. Moreover, this is using the latest TensorFlow 2.0. So there will be no version confilts while running this project on TF 2.0.
 
 ## Requirements
 * Set up a python environment with required dependencies installed.
