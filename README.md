@@ -31,7 +31,7 @@ A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement 
 #### 3. Start the training
   1. Run ```init_cache.py``` first time to initialize the file system structure.
   
-  2. Run ```RLDinoRun.py``` to start the training of the Dino Run game.
+  2. Run ```RLDinoRunTF_2.0.py``` to start the training of the Dino Run game.
   
   #### 4. Results
   Run ```DinoTrainingProgress.py``` to see the results of the training process
