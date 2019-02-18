@@ -3,5 +3,4 @@ pandas
 Pillow
 opencv-python
 selenium
-tensorflow
-Keras
+tf-nightly-2.0-preview
