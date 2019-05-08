@@ -41,4 +41,4 @@ A 2013 publication by DeepMind titled [‘Playing Atari with Deep Reinforcement 
   
 
 ## Acknowledgements
-* Thanks to Ravi Munde for his [awsome article](https://blog.paperspace.com/dino-run/) because which this project as possible
+* Thanks to Ravi Munde for his [awesome article](https://blog.paperspace.com/dino-run/) because which this project as possible
